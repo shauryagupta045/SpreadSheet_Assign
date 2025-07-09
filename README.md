@@ -1,4 +1,4 @@
-# 🧮 Google Spreadsheet Clone
+#  Google Spreadsheet Clone
 
 A **Google Sheets-like interface** built using **React.js** and **Vite**, allowing users to:
 
@@ -12,24 +12,34 @@ A **Google Sheets-like interface** built using **React.js** and **Vite**, allowi
 
 ## 📁 Project Structure
 
-src/
-├── assets/ # Static assets
-├── components/ # UI Components
-│ ├── ActionButtons.jsx
-│ ├── AddJobModal.jsx
-│ ├── BottomTabs.jsx
-│ ├── FilterModal.jsx
-│ ├── Header.jsx
-│ ├── ShareModal.jsx
-│ ├── Spreadsheet.jsx
-│ └── Toolbar.jsx
-├── hooks/ # Custom hooks (if any)
-├── App.jsx # Root component
-├── App.css # Global styles
-├── index.css # Tailwind / base styles
-├── main.jsx # React DOM rendering
+```bash
+.
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── ActionButtons.jsx
+│   │   ├── AddJobModal.jsx
+│   │   ├── BottomTabs.jsx
+│   │   ├── FilterModal.jsx
+│   │   ├── Header.jsx
+│   │   ├── ShareModal.jsx
+│   │   ├── Spreadsheet.jsx
+│   │   └── Toolbar.jsx
+│   ├── hooks/
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   ├── main.jsx
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+├── README.md
+├── tailwind.config.js
+├── vite.config.js
 
-
+``` 
 
 
 ---
@@ -78,4 +88,4 @@ npm run dev
 
 ``` 
 ##🧑‍💻 Author
-Shaurya Gupta – GitHub
+Shaurya Gupta 
