@@ -76,6 +76,6 @@ npm install
 # Start development server
 npm run dev
 
-
-#🧑‍💻 Author
+``` 
+##🧑‍💻 Author
 Shaurya Gupta – GitHub
